@@ -39,8 +39,8 @@
     </div>
     <h1 id="date"><?php echo aujourdhui() ;?></h1>
     <form id="search" method="GET" action="" >
-	<input type="text" />
-	<input type="submit" value="Qwant !" />
+	<input id="champSearch" type="text" />
+	<input id="btnSearch" type="submit" value="Qwant !" />
     </form>
     <div id="astrologic">
         <aside>
