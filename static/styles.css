@@ -1,0 +1,114 @@
+* {
+    box-sizing : border-box ;
+}
+
+body {
+    margin : 0 ;
+    padding : 15px ;
+    font-family : sans-serif ;
+		background : url("img/bg/cherrytree01.jpg") center center ;
+		background-size : cover ;
+		color : white ;
+		display : flex ;
+		flex-direction : column ;
+		justify-content : space-between ;
+		min-height : 100vh ;
+			text-shadow : 1px 1px 0 black ;
+}
+
+/* Ressources*/
+#tools {
+    display : flex ;
+}
+
+#tools > li + li {
+    margin-left : 15px ;
+}
+
+#links li + li {
+    margin-top : 10px ;
+}
+
+
+/*Params*/
+#params {
+	align-items : flex-end ;
+}
+
+/*les 2*/
+#resources, #params {
+	display : flex ;
+	justify-content : space-between ;
+}
+
+
+/*Partie centrale*/
+main {
+	display : flex ;
+	flex-direction : column ;
+	justify-content : center ;
+	align-items : center ;
+	flex-grow : 1 ;
+
+}
+
+h1 {
+	font-size : 2rem ;
+        margin-top : 0 ;
+}
+
+h2 {
+    font-size : 6rem ;
+    margin : 0 0 15px 15px ;
+}
+
+form input[type="text"] {
+	background : rgba(255, 255, 255, 0.5) ;
+	border-radius : 5px ;
+	border-color : rgba(255, 255, 255, 0.75) ;
+	padding : 10px ;
+}
+
+form input[type="submit"] {
+	padding : 6px ;
+}
+
+#astrologic, #temps {
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+}
+
+#weather p {
+    margin-top : 0 ;
+    text-align : center ;
+}
+#astrologic {
+    max-width : 75ch ;
+}
+.temperature {
+    font-size : 2rem ;
+}
+
+/*Page d'accueil*/
+
+a {
+    text-decoration : none ;
+}
+
+
+ul.noPuces {
+    list-style : none ;
+    padding : 0 ;
+    margin : 0 ;
+}
+
+.txtright {text-align : right ;}
+
+.icon {
+    height : 50px ;
+}
+
+.icon-small {
+    height : 25px ;
+}
